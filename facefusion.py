@@ -4,7 +4,7 @@ import os
 
 os.environ['OMP_NUM_THREADS'] = '1'
 
-from facefusion import core
+from imgblendo import core
 
 if __name__ == '__main__':
 	core.cli()
