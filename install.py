@@ -4,7 +4,7 @@ import os
 
 os.environ['SYSTEM_VERSION_COMPAT'] = '0'
 
-from imgblendo import installer
+from facefusion import installer
 
 if __name__ == '__main__':
 	installer.cli()
